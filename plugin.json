@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dsh-taxscale",
+  "version": "1.3.0",
+  "description": "Thirty-year tax director: statement forensics, voucher review, tax computation and filing for Chinese enterprise and individual tax.",
+  "author": {
+    "name": "WorkBuddy",
+    "email": "support@workbuddy.cn"
+  },
+  "license": "MIT",
+  "keywords": ["tax", "finance", "compliance", "accounting", "财税"]
+}

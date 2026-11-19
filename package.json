@@ -1,0 +1,39 @@
+{
+  "name": "dsh-taxscale",
+  "version": "1.4.0",
+  "description": "税衡 · 税务总监 — 企业财税合规检测、单据审核、报税测算与填报（三个 Agent Skill）",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "WorkBuddy",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "tax",
+    "tax-compliance",
+    "tax-filing",
+    "accounting",
+    "finance",
+    "财税",
+    "税务"
+  ],
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills/",
+    "plugin.json",
+    "README.md",
+    "assets",
+    "icon.png"
+  ],
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  }
+}
